@@ -1,9 +1,10 @@
 # udiff
-Unique union diff tool
+Unique union diff tool on lines of multiple files
 
-Example output of 4 files
+Example output of 5 files
 
 ```
+file1       |file2        |file3        |file4        |file5
 86 90       | 86 90       | 86 90       | 86 90       | 86 90      
 59 86       |             | 59 86       | 59 86       | 59 86      
 34 59       |             | 34 59       | 34 59       | 34 59      
@@ -30,6 +31,7 @@ Example output of 4 files
 or 
 
 ```
+line        |file1 |file2 |file3|file4 |file5
 85 90       |  ✅  |  ✅  |  ✅  |  ✅  |  ✅ 
 34 85       |  ✅  |  ✅  |  ✅  |  ✅  |  ✅ 
 36 85 90    |  ✅  |  ✅  |  ✅  |  ✅  |  ✅ 
